@@ -53,9 +53,8 @@ const Register = () => {
 
   return (
     <FormContainer
-      meta='register for free'
-      image='https://blog.hubspot.com/hubfs/ecommerce-1.png'
-      title='Register For Free'
+      meta='registere'
+      title='Register'
     >
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Form.Group controlId='name'>
@@ -79,7 +78,7 @@ const Register = () => {
           <p className='invalid-feedback'>{errors.email?.message}</p>
         </Form.Group>
         <Form.Group controlId='password'>
-          <Form.Label>Mot de Passe </Form.Label>
+          <Form.Label>Password</Form.Label>
 
           <Form.Control
             type='password'

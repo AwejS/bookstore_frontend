@@ -10,7 +10,7 @@ const DownFooter = () => {
           <Row>
             <Col lg={3} md={6} xs={12} className=' footer-contact'>
               <h3>
-                <Image width={100} src='/LogoMakr-4g0P6C.png' alt='' />
+                <Image width={100} src='https://static.vecteezy.com/system/resources/thumbnails/004/297/596/small_2x/education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector.jpg' alt='' />
               </h3>
               <p>
                 2 Allée Andersen

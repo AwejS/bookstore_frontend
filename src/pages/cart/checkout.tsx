@@ -65,7 +65,7 @@ const Checkout = () => {
                       <Row className="d-flex align-items-center">
                         <Col md={2}>
                           <ImageLazy
-                            imageUrl={item.image}
+                            imageUrl={item.images[0].url}
                             style={{ objectFit: "contain" }}
                             className="avatar rounded-5"
                           />

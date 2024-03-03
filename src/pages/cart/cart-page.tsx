@@ -94,21 +94,13 @@ const CartPage = () => {
                     </ListGroup.Item>
                     <ListGroup.Item className=" d-flex justify-content-between align-items-center">
                       <Button
-                        style={{ backgroundColor: "#e03a3c" }}
+                        style={{ backgroundColor: "#e03a3c",marginLeft:'70px' }}
                         disabled={cartItems.length === 0}
                         onClick={() => navigate("/shipping-address")}
                         className="w-1/2 text-white me-2"
                         variant="outline-none"
                       >
                         Checkout
-                      </Button>
-                      <Button
-                        style={{ backgroundColor: "#e03a3c" }}
-                        onClick={() => navigate("/")}
-                        className="w-1/2 text-white me-2"
-                        variant="outline-none"
-                      >
-                        Countine
                       </Button>
                     </ListGroup.Item>
                   </ListGroup>

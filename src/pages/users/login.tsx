@@ -45,9 +45,8 @@ const Login = () => {
 
   return (
     <FormContainer
-      meta="Login your account"
-      image="https://blog.hubspot.com/hubfs/ecommerce-1.png"
-      title="Login Your Account"
+      meta="Login"
+      title="Login"
     >
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Form.Group controlId="email">
@@ -63,7 +62,7 @@ const Login = () => {
         </Form.Group>
 
         <Form.Group controlId="password">
-          <Form.Label>Mot de Passe </Form.Label>
+          <Form.Label>Password </Form.Label>
           <Form.Control
             type="password"
             placeholder="*******"

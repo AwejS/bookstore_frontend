@@ -8,7 +8,7 @@ export type Product = {
   _id: number | string;
   name: string;
   price: number;
-  image: string;
+  images: any;
   category: string;
   brand: string;
   description: string;
@@ -34,7 +34,7 @@ const ProductCard = ({ product }: Props) => {
     >
       <Link to={`/products/${product._id}`}>
         <ImageLazy
-          imageUrl={product.image}
+          imageUrl={product.images[0].url}
           style={{
             height: "200px",
             width: "250px",

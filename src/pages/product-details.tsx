@@ -72,7 +72,7 @@ const ProductDetails = () => {
               <Card className="shadow">
                 <div className="d-flex justify-content-center">
                   <ImageLazy
-                    imageUrl={product?.image}
+                    imageUrl={product.images[0].url}
                     style={{
                       width: "500px",
                       height: "480px",

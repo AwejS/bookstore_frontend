@@ -70,7 +70,7 @@ const OrderDetails = () => {
                         <Row className="d-flex align-items-center">
                           <Col md={2}>
                             <ImageLazy
-                              imageUrl={item.image}
+                              imageUrl={item.images[0].url}
                               style={{ objectFit: "contain" }}
                               className="avatar rounded-5 h-16 w-16"
                             />
@@ -133,7 +133,7 @@ const OrderDetails = () => {
                           description={`Total Price ${formatCurrencry(
                             order?.totalPrice
                           )}`}
-                          name="Type Shop"
+                          name="Book Worm"
                           image="/LogoMakr-6Tit9e.png"
                           stripeKey={import.meta.env.VITE_API_STRIPE}
                           token={tokenHandler}

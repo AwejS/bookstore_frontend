@@ -64,7 +64,7 @@ const Products = () => {
                   >
                     <option value="All">All</option>
                     All
-                    {categories.map((categorie: any) => (
+                    {categories && categories.map((categorie: any) => (
                       <option value={categorie} key={categorie}>
                         {categorie}
                       </option>
@@ -85,7 +85,7 @@ const Products = () => {
                   >
                     <option value="All">All</option>
                     All
-                    {brands.map((brand: any) => (
+                    {brand && brands.map((brand: any) => (
                       <option value={brand} key={brand}>
                         {brand}
                       </option>

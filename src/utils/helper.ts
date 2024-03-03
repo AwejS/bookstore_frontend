@@ -11,4 +11,4 @@ export const getDate = (date: Date) => {
   return new Date(date).toLocaleDateString("en");
 };
 
-export const baseUrl = import.meta.env.VITE_API_URL;
+export const baseUrl = "http://localhost:4000/api/v1";

@@ -53,7 +53,7 @@ export const productFilterSlice = createSlice({
     });
     builder.addCase(getFilterProducts.fulfilled, (state, action) => {
       state.loading = false;
-      state.products = action.payload.productDocs;
+      state.products = action.payload;
       state.page = action.payload.page;
       state.pages = action.payload.pages;
       state.brands = action.payload.brands;
